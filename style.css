@@ -1,0 +1,61 @@
+h1{
+  text-align: center;
+}
+
+.row{
+  text-align: center;
+}
+
+.card{
+  display: inline-block;
+  width: 125px;
+  height: 150px;
+  background-color: #eef2f2;
+  cursor:pointer;
+  border: 3px solid #603F83FF;
+  margin: 5px;
+}
+
+
+.card.done {
+  cursor: default;
+}
+
+.card.done:hover {
+  cursor: default;
+  box-shadow: none;
+}
+
+
+.card:hover{
+  border: 3px solid #51a978;
+}
+
+.indigo{
+  background-color: indigo;
+}
+.green{
+  background-color: green;
+}
+.blue{
+  background-color: dodgerblue;
+}
+.orange{
+  background-color: orange;
+}
+.cyan{
+  background-color: cyan;
+}
+.yellow{
+  background-color: yellow;
+}
+.pink{
+  background-color: pink;
+}
+.teal{
+  background-color: teal;
+}
+
+.color-hidden{
+  background-color: #eef2f2;
+}
